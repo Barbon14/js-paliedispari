@@ -16,7 +16,7 @@ function palindromeWord(word) {
 
     // confronto la parola inserita con quella invertita
     // se sono uguali sono palindrome, altrimenti no
-    // tampo in pagina il risulato
+    // stampo in pagina il risulato
     const element = document.getElementById("result");
     if (word === wordReverse) {
         element.innerHTML = 'La parola &egrave; palindroma.';
