@@ -2,10 +2,9 @@
 // Creare una funzione per capire se la parola inserita è palindroma.
 // Dare l’output relativo.
 
-// creo una funzione
+// creo una funzione, l'argomento sarà la parola da controllare
 function palindromeWord(word) {
 
-    // chiedo all'utente di inserire una parola
     console.log(word);
 
     // inverto l'ordine delle lettre per leggere la parola al contario
@@ -28,5 +27,5 @@ function palindromeWord(word) {
     }
 }
 
-// richiamo la funzione
+// richiamo la funzione, chiedo all'utente di inserire una parola
 palindromeWord(prompt("Inserisci una parola."));
